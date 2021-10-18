@@ -4,6 +4,8 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
+    <meta name="author" content="Noé Fernández Moro">
+    <meta name="keywords" content="formulario, datos, personales">
     <title>Danos tu opinión</title>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
 </head>
@@ -21,13 +23,13 @@
     <h1>Danos tu opinión</h1>
     <h2>Rellena el siguiente formulario con tus datos personales</h2>
     <form>
-        <label>*Nombre:</label> <input type="text"><br>
-        <label>*Apellidos:</label> <input type="text"><br> 
-        <label>*Fecha de nacimiento: </label><input type="date"><br> 
-        <label>*Correo de contacto: </label><input type="email"><br> 
-        <label>*Valoración de la página web (0-10): </label><input type="number" max="10" min="0"><br> 
-        <label>*Opinión personal: </label><br>
-        <textarea cols="45" rows="6"></textarea><br> 
+        <label for="nombre">*Nombre:</label> <input type="text" id="nombre"><br>
+        <label for="apellidos">*Apellidos:</label> <input type="text" id="apellidos"><br> 
+        <label for="fechaNacimiento">*Fecha de nacimiento: </label><input type="date" id="fechaNacimiento"><br> 
+        <label for="email">*Correo de contacto: </label><input type="email" id="email"><br> 
+        <label for="valoración">*Valoración de la página web (0-10): </label><input type="number" max="10" min="0" id="valoración"><br> 
+        <label for="opinionPersonal">*Opinión personal: </label><br>
+        <textarea cols="45" rows="6" id="opinionPersonal"></textarea><br> 
 
         <input type="submit" value="Enviar" >
     </form>
