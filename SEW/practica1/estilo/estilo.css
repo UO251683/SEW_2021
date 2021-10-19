@@ -3,14 +3,14 @@ body
 {
   font-family: Tahoma, sans-serif;
   color: #686868;
-  background-color: rgb(255, 233, 200);
+  background-color: rgb(255, 255, 255);
 }
 
 /*Especificidad: 001*/
 h1 
 {
   color: #fff;    
-  background-color:#ffa51d; 
+  background-color:#ff8800; 
   text-transform: uppercase;
   padding: 2em; 
   text-align: center;     
@@ -20,7 +20,7 @@ h1
 h2
 {
   text-align: center;     
-  color: rgb(255, 174, 0);    
+  color: rgb(255, 136, 0);    
   background-color:#ffffff; 
   text-transform: uppercase;
 }
@@ -85,8 +85,8 @@ nav>a
 {
   padding: 1em; 
   font-family: Tahoma, sans-serif;
-  color: #000000;
-  background-color:#e66815; 
+  color: #ffffff;
+  background-color:#2820a5; 
   text-transform: uppercase;
   text-align: center;     
   margin: 0.5%;
