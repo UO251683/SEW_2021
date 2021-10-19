@@ -88,7 +88,7 @@ nav>a
   text-transform: uppercase;
   text-align: center;     
   margin: 0.5%;
-  float:inherit; 
+  float:left; 
 }
 
 /*Especificidad: 002*/
