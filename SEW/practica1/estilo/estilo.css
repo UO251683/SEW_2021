@@ -21,6 +21,7 @@ h2
 {
   text-align: center;     
   color: rgb(255, 174, 0);    
+  background-color:#ffffff; 
   text-transform: uppercase;
 }
 
@@ -29,6 +30,7 @@ h3
 {
   text-align: center;     
   color: rgb(190, 143, 41);    
+  background-color:#ffffff; 
 }
 
 /*Especificidad: 011*/
@@ -62,20 +64,20 @@ table{
 
 /*Especificidad: 001*/
 th{
-  border: 0.2em solid rgb(0, 0, 0);
+  border: 0.2em solid #ff9100;
   text-align: center;     
-  border-color: #ff9100;
   padding: 0.1%;
   background-color: #fdcb5e;
+  color: black;
 }
 
 /*Especificidad: 001*/
 td{
-  border: 0.2em solid rgb(0, 0, 0);
+  border: 0.2em solid #ff9100;
   text-align: center;     
-  border-color: #ffbb00;
   padding: 0.1%;
   background-color: #ffdc90;
+  color: black;
 }
 
 /*Especificidad: 002*/
