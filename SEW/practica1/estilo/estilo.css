@@ -1,0 +1,135 @@
+/*Especificidad: 001*/
+body 
+{
+  font-family: Tahoma, sans-serif;
+  color: #686868;
+  background-color: rgb(255, 233, 200);
+}
+
+/*Especificidad: 001*/
+h1 
+{
+  color: #fff;    
+  background-color:#ffa51d; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;     
+}
+
+/*Especificidad: 001*/
+h2
+{
+  text-align: center;     
+  color: rgb(255, 174, 0);    
+  text-transform: uppercase;
+}
+
+/*Especificidad: 001*/
+h3
+{
+  text-align: center;     
+  color: rgb(190, 143, 41);    
+}
+
+/*Especificidad: 011*/
+section:last-of-type{
+  text-align: center;     
+  color: rgb(0, 84, 180);    
+  background-color: rgb(138, 175, 255);
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+/*Especificidad: 011*/
+section:first-of-type{
+  text-align: center;     
+  color: rgb(0, 84, 180);    
+  background-color: rgb(138, 175, 255);
+  padding-bottom: 1%;
+  padding-top: 0.5%;
+}
+
+/*Especificidad: 002*/
+section>h4{
+  text-transform: uppercase;
+}
+
+/*Especificidad: 001*/
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Especificidad: 001*/
+th{
+  border: 1px solid #ddd;
+  text-align: center;     
+  border-color: #ff9100;
+  padding: 8px;
+  background-color: #fdcb5e;
+}
+
+/*Especificidad: 001*/
+td{
+  border: 1px solid #ddd;
+  text-align: center;     
+  border-color: #ffbb00;
+  padding: 8px;
+  background-color: #ffdc90;
+
+}
+
+/*Especificidad: 002*/
+nav>a
+{
+  padding: 1em; 
+  font-family: Tahoma, sans-serif;
+  color: #000000;
+  background-color:#e66815; 
+  text-transform: uppercase;
+  text-align: center;     
+}
+
+/*Especificidad: 002*/
+video, audio{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Especificidad: 001*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+/*Especificidad: 002*/
+ul>li{
+  color: #000000;
+  margin-bottom: 0.2%;
+  background-color: rgb(255, 226, 147);
+}
+
+/*Especificidad: 001*/
+form{
+  margin-left: 40%;
+  margin-right:25%;
+  width: 50%;
+}
+
+/*Especificidad: 002*/
+form>input{
+  max-width: 15%;
+}
+
+/*Especificidad: 002*/
+form>textarea{
+  max-width: 30%;
+  max-height: 20%;
+  resize: none;
+}
+
+
+  
+  
