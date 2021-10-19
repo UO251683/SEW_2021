@@ -12,8 +12,8 @@ h1
   color: rgb(0, 0, 0);    
   background-color:#ff9900; 
   text-transform: uppercase;
-  padding: 2em; 
-  text-align: center;     
+  padding: 3em; 
+  text-align:center;     
 }
 
 /*Especificidad: 001*/
@@ -89,7 +89,7 @@ nav>a
   background-color:#2820a5; 
   text-transform: uppercase;
   text-align: center;     
-  margin: 0.5%;
+  margin: 1%;
   float:left;
 }
 
