@@ -9,7 +9,7 @@ body
 /*Especificidad: 001*/
 h1 
 {
-  color: #fff;    
+  color: rgb(0, 0, 0);    
   background-color:#ff9900; 
   text-transform: uppercase;
   padding: 2em; 
@@ -36,8 +36,8 @@ h3
 /*Especificidad: 011*/
 section:last-of-type{
   text-align: center;     
-  color: rgb(0, 84, 180);    
-  background-color: rgb(138, 175, 255);
+  color: rgb(0, 0, 0);    
+  background-color: rgb(200, 218, 255);
   padding-bottom: 2%;
   padding-top: 1%;
 }
@@ -45,8 +45,8 @@ section:last-of-type{
 /*Especificidad: 011*/
 section:first-of-type{
   text-align: center;     
-  color: rgb(0, 84, 180);    
-  background-color: rgb(138, 175, 255);
+  color: rgb(0, 0, 0);    
+  background-color: rgb(200, 218, 255);
   padding-bottom: 1%;
   padding-top: 0.5%;
 }
@@ -90,7 +90,6 @@ nav>a
   text-transform: uppercase;
   text-align: center;     
   margin: 0.5%;
-  float:left; 
 }
 
 /*Especificidad: 002*/
