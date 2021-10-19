@@ -62,21 +62,20 @@ table{
 
 /*Especificidad: 001*/
 th{
-  border: 1px solid #ddd;
+  border: 0.2em solid rgb(0, 0, 0);
   text-align: center;     
   border-color: #ff9100;
-  padding: 8px;
+  padding: 0.1%;
   background-color: #fdcb5e;
 }
 
 /*Especificidad: 001*/
 td{
-  border: 1px solid #ddd;
+  border: 0.2em solid rgb(0, 0, 0);
   text-align: center;     
   border-color: #ffbb00;
-  padding: 8px;
+  padding: 0.1%;
   background-color: #ffdc90;
-
 }
 
 /*Especificidad: 002*/
@@ -88,8 +87,8 @@ nav>a
   background-color:#e66815; 
   text-transform: uppercase;
   text-align: center;     
-  margin: auto;
-  float:left; 
+  margin: 0.5%;
+  float:inherit; 
 }
 
 /*Especificidad: 002*/
