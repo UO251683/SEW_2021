@@ -23,18 +23,20 @@
     </header>
     
     <h1>Danos tu opinión</h1>
-    <p>Rellena el siguiente formulario con tus datos personales</p>
     <form>
-        <label for="nombre">*Nombre:</label> <input type="text" id="nombre"><br>
-        <label for="apellidos">*Apellidos:</label> <input type="text" id="apellidos"><br> 
-        <label for="fechaNacimiento">*Fecha de nacimiento: </label><input type="date" id="fechaNacimiento"><br> 
-        <label for="email">*Correo de contacto: </label><input type="email" id="email"><br> 
-        <label for="valoración">*Valoración de la página web (0-10): </label><input type="number" max="10" min="0" id="valoración"><br> 
-        <label for="opinionPersonal">*Opinión personal: </label><br>
-        <textarea cols="45" rows="6" id="opinionPersonal"></textarea><br> 
+        <fieldset>
+            <legend>Rellena el siguiente formulario con tus datos personales: </legend>
+            <label for="nombre">*Nombre:</label> <input type="text" id="nombre"><br>
+            <label for="apellidos">*Apellidos:</label> <input type="text" id="apellidos"><br> 
+            <label for="fechaNacimiento">*Fecha de nacimiento: </label><input type="date" id="fechaNacimiento"><br> 
+            <label for="email">*Correo de contacto: </label><input type="email" id="email"><br> 
+            <label for="valoración">*Valoración de la página web (0-10): </label><input type="number" max="10" min="0" id="valoración"><br> 
+            <label for="opinionPersonal">*Opinión personal: </label><br>
+            <textarea cols="45" rows="6" id="opinionPersonal"></textarea><br> 
 
-        <input type="submit" value="Enviar" >
-        <p>(*) Datos obligatorios</p>
+            <input type="submit" value="Enviar" >
+            <p>(*) Datos obligatorios</p>
+        </fieldset>
     </form>
     
     <footer>
