@@ -122,8 +122,14 @@ ul>li{
 
 /*Especificidad: 001*/
 form{
-  margin-left: 40%;
+  margin-left:28%;
   margin-right:25%;
+  width: 50%;
+}
+
+form>fieldset{
+  margin-left: 20%;
+  margin-right:55%;
   width: 50%;
 }
 
@@ -139,9 +145,15 @@ form>textarea{
   resize: none;
 }
 
+/*Especificidad: 001*/
 footer{
   background-color: rgb(226, 226, 226);
   color: black;
+  text-align: center;     
+}
+
+/*Especificidad: 003*/
+form>fieldset>legend{
   text-align: center;     
 }
 
