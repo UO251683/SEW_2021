@@ -1,0 +1,35 @@
+/*Especificidad: 001*/
+body 
+{
+  font-family: Tahoma, sans-serif;
+  color: #686868;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+/*Especificidad: 001*/
+h1 
+{
+  color: rgb(0, 0, 0);    
+  background-color:#ff9900; 
+  text-transform: uppercase;
+  padding: 3em; 
+  text-align:center;     
+}
+
+/*Especificidad: 001*/
+h2
+{
+  text-align: center;     
+  color: rgb(62, 0, 206);    
+  background-color:#ffffff; 
+  text-transform: uppercase;
+}
+
+/*Especificidad: 001*/
+p
+{
+  text-align: center;     
+  color: rgb(0, 0, 0);    
+  background-color:#d4d4d4; 
+}
