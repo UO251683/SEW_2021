@@ -12,8 +12,43 @@
        Calculadora básica
     </h1>
 
-    <section>
-        <input type = "button" onclick = "division(3, 3)" value = "3 / 3">  
-    </section>
+    <dl>
+        <section>
+            <h2 id="pantalla">
+                0
+            </h2>
+        </section>
+        <dt>
+            <input type = "button" onclick = "guardar()" value = "mrc">  
+            <input type = "button" onclick = "restaMemoria()" value = "m-">  
+            <input type = "button" onclick = "sumaMemoria()" value = "m+">  
+            <input type = "button" onclick = "division()" value = "/">  
+        </dt>
+        <dt>
+            <input type = "button" onclick = "introducir(7)" value = "7">  
+            <input type = "button" onclick = "introducir(8)" value = "8">  
+            <input type = "button" onclick = "introducir(9)" value = "9">  
+            <input type = "button" onclick = "multiplicacion()" value = "*">  
+        </dt>
+        <dt>
+            <input type = "button" onclick = "introducir(4)" value = "4">  
+            <input type = "button" onclick = "introducir(5)" value = "5">  
+            <input type = "button" onclick = "introducir(6)" value = "6">  
+            <input type = "button" onclick = "resta()" value = "-">  
+        </dt>
+        <dt>
+            <input type = "button" onclick = "introducir(1)" value = "1">  
+            <input type = "button" onclick = "introducir(2)" value = "2">  
+            <input type = "button" onclick = "introducir(3)" value = "3">  
+            <input type = "button" onclick = "suma()" value = "+">  
+        </dt>
+        <dt>
+            <input type = "button" onclick = "introducir(0)" value = "0">  
+            <input type = "button" onclick = "punto()" value = ".">  
+            <input type = "button" onclick = "reset()" value = "C">  
+            <input type = "button" onclick = "eval()" value = "=">  
+        </dt>
+    </dl>
+
 </body>
 </html>
