@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Noé Fernández Moro">
+    <title>EMAScript - 3.- Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+<body>
+    <h1>
+       Calculadora científica
+    </h1>
+
+    <dl>
+        <section>
+            <h2 id="pantalla">
+                0
+            </h2>
+        </section>
+        <dt>
+            <input type = "button" onclick = "sumaMemoria()" value = "M+">  
+            <input type = "button" onclick = "restaMemoria()" value = "M-">  
+            <input type = "button" onclick = "guardar()" value = "MS">  
+        </dt>
+        <dt>
+            <input type = "button" onclick = "" value = "x²">  
+            <input type = "button" onclick = "" value = "x^y">  
+            <input type = "button" onclick = "" value = "sin">  
+            <input type = "button" onclick = "" value = "cos">  
+            <input type = "button" onclick = "" value = "tan">
+        </dt>
+        <dt>
+            <input type = "button" onclick = "" value = "√">  
+            <input type = "button" onclick = "" value = "10^x">  
+            <input type = "button" onclick = "" value = "log">  
+            <input type = "button" onclick = "" value = "Exp">  
+            <input type = "button" onclick = "" value = "Mod">
+        </dt>
+        <dt>
+            <input type = "button" onclick = "" value = "↑">  
+            <input type = "button" onclick = "" value = "CE">  
+            <input type = "button" onclick = "reset()" value = "C">  
+            <input type = "button" onclick = "" value = "←">  
+            <input type = "button" onclick = "division()" value = "÷">
+        </dt>
+        <dt>
+            <input type = "button" onclick = "" value = "π">  
+            <input type = "button" onclick = "introducir(7)" value = "7">  
+            <input type = "button" onclick = "introducir(8)" value = "8">  
+            <input type = "button" onclick = "introducir(9)" value = "9">  
+            <input type = "button" onclick = "multiplicacion()" value = "X">
+        </dt>
+        <dt>
+            <input type = "button" onclick = "" value = "n!">  
+            <input type = "button" onclick = "introducir(4)" value = "4">  
+            <input type = "button" onclick = "introducir(5)" value = "5">  
+            <input type = "button" onclick = "introducir(6)" value = "6">  
+            <input type = "button" onclick = "resta()" value = "-">
+        </dt>
+        <dt>
+            <input type = "button" onclick = "" value = "±">  
+            <input type = "button" onclick = "introducir(1)" value = "1">  
+            <input type = "button" onclick = "introducir(2)" value = "2">  
+            <input type = "button" onclick = "introducir(3)" value = "3">  
+            <input type = "button" onclick = "suma()" value = "+">
+        </dt>
+        <dt>
+            <input type = "button" onclick = "" value = "(">  
+            <input type = "button" onclick = "" value = ")">  
+            <input type = "button" onclick = "guarda(0)" value = "0">  
+            <input type = "button" onclick = "punto()" value = ",">  
+            <input type = "button" onclick = "eval()" value = "=">
+        </dt>
+    </dl>
+
+</body>
+</html>
